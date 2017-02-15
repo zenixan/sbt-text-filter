@@ -22,7 +22,7 @@ import scala.util.matching.Regex
  * The plugin provides the following predefined properties:
  *  - Environment variables can be referenced using the '''env.*''' prefix, e.g. `\${env.HOME}`.
  *  - Java system properties can be referenced using the '''sys.*''' prefix, e.g. `\${sys.java.class.path}`.
- *  - Project properties can be references without any prefixes, e.g. `\${organization}`.
+ *  - Project properties can be referenced without any prefixes, e.g. `\${organization}`.
  *
  * @see [[http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html Maven's resource filtering]]
  *

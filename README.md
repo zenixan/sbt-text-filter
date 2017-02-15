@@ -18,11 +18,11 @@ The plugin provides the following predefined properties:
 
 - Environment variables can be referenced using the `env.*` prefix, e.g. `${env.HOME}`.
 - Java system properties can be referenced using the `sys.*` prefix, e.g. `${sys.java.class.path}`.
-- Project properties can be references without any prefixes, e.g. `${organization}`.
+- Project properties can be referenced without any prefixes, e.g. `${organization}`.
 
 ## Settings
 
-The plugin injects a main task **textFilter* into the system task **products** 
+The plugin injects a main task **textFilter** into the system task **products** 
 and provides the following settings:
 
 - **textFilterExtensions** — a list of file's extensions that will be filtered, 
